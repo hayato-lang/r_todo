@@ -1,3 +1,5 @@
+import styled from "styled-components";
+
 export const IncompleteTodo = (props) => {
   const {incompleteTodos, onClickComplete,onClickDelete } = props
   return (
@@ -17,3 +19,7 @@ export const IncompleteTodo = (props) => {
   </div>
   );
 }
+
+const IncompleteArea = styled.div`
+  
+`;
